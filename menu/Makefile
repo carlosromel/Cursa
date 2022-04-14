@@ -13,3 +13,6 @@ main.o: main.c calcularIdade.s calcularNota.s
 clean:
 	rm *.o *.s
 
+run: main.o
+	xterm -e ./main.o
+
