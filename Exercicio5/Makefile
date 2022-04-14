@@ -12,6 +12,3 @@ clean:
 
 run: main.o
 	xterm -hold -e ./$<
-
-install: main.o
-	./$<
