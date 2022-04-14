@@ -11,4 +11,4 @@ clean:
 	rm *.o
 
 run: main.o
-	xterm -e ./main.o
+	xterm -hold -e ./main.o
